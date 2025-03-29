@@ -1,8 +1,8 @@
 import { FaProjectDiagram } from "react-icons/fa";
 import Title from "./Title";
-import foodDelivery from "../assets/projects/foodDelivery.png";
-import paozTrailblazers from "../assets/projects/paozTrailblazers.png";;
-import artPortfolio from "../assets/projects/artPortfolio.png";
+import foodDelivery from "../assets/projects/foodDelivery.PNG";
+import paozTrailblazers from "../assets/projects/paozTrailblazers.PNG";;
+import artPortfolio from "../assets/projects/artPortfolio.PNG";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
