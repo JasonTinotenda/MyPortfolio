@@ -37,7 +37,7 @@ const Home = () => {
             >
               Get started
             </a>*/}
-            <a href="/Portfolio" className="text-lg font-semibold text-gray-200 hover:text-indigo-600">
+            <a href="/portfolio" className="text-lg font-semibold text-gray-200 hover:text-indigo-600">
               View Portfolio <span aria-hidden="true">→</span>
             </a>
           </div>
