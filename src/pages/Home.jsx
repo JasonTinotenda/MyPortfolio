@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import bgimage from '../assets/bgimage.jpg'; // Adjust the path as necessary  
 
 const Home = () => {
@@ -37,9 +38,9 @@ const Home = () => {
             >
               Get started
             </a>*/}
-            <a href="/portfolio" className="text-lg font-semibold text-gray-200 hover:text-indigo-600">
+            <Link to="/portfolio" className="text-lg font-semibold text-gray-200 hover:text-indigo-600">
               View Portfolio <span aria-hidden="true">→</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
