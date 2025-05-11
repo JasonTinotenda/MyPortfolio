@@ -1,0 +1,51 @@
+portfolio-jason/
+├── public/
+│   ├── favicon.ico
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   ├── images/       // Your portrait, project images (if not hosted)
+│   │   └── icons/        // Custom SVG icons if not using a library
+│   ├── components/
+│   │   ├── common/       // Buttons, Cards, Modals, Loaders
+│   │   │   ├── Button.jsx
+│   │   │   ├── AnimatedText.jsx // Reusable for character/word animations
+│   │   │   └── SectionTitle.jsx
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Footer.jsx
+│   │   ├── home/
+│   │   │   └── HeroSection.jsx
+│   │   ├── projects/
+│   │   │   ├── ProjectCard.jsx
+│   │   │   └── ProjectsGrid.jsx
+│   │   ├── about/
+│   │   │   └── AboutContent.jsx
+│   │   ├── skills/
+│   │   │   ├── SkillBar.jsx
+│   │   │   └── SkillsDisplay.jsx
+│   │   └── contact/
+│   │       └── ContactForm.jsx
+│   ├── pages/
+│   │   ├── HomePage.jsx
+│   │   ├── ProjectsPage.jsx
+│   │   ├── AboutPage.jsx
+│   │   ├── SkillsPage.jsx
+│   │   └── ContactPage.jsx
+│   ├── data/
+│   │   ├── bio.js
+│   │   ├── projectsData.js
+│   │   └── skillsData.js
+│   ├── hooks/
+│   │   ├── useScrollTrigger.js  // Custom hook for GSAP scroll triggers if needed
+│   │   └── useReducedMotion.js // To respect user's motion preferences
+│   ├── styles/
+│   │   └── global.css          // Tailwind base, components, utilities + custom global styles
+│   ├── App.jsx                 // Main app component with routing
+│   └── main.jsx                // Entry point
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html                  // Vite entry point
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
