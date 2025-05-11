@@ -1,34 +1,35 @@
 // src/pages/ContactPage.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet-async';
+//import { Helmet } from 'react-helmet-async';
 import ContactForm from '../components/contact/ContactForm';
 import SectionTitle from '../components/common/SectionTitle';
 import { FiMail, FiLinkedin, FiGithub } from 'react-icons/fi';
 import { pageVariants, pageTransition } from '../utils/animations';
 
 const ContactPage = () => {
-  const pageTitle = "Contact Me | Jason Kufakwatenzi";
+  {/*const pageTitle = "Contact Me | Jason Kufakwatenzi";
   const pageDescription = "Get in touch with Jason Kufakwatenzi to discuss projects, collaborations, or any inquiries. Reach out via the contact form, email, or social media.";
+  */}
   const email = "jasontinotenda2@gmail.com";
   const linkedinUser = "jasonkufakwatenzi";
   const githubUser = "jasonkufakwatenzi";
 
   return (
     <>
-      <Helmet>
+      {/*<Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourdomain.com/contact" /> {/* Replace */}
-        <meta property="og:image" content="https://yourdomain.com/assets/images/og-contact.png" /> {/* Specific OG image */}
+        <meta property="og:url" content="https://yourdomain.com/contact" /> 
+        <meta property="og:image" content="https://yourdomain.com/assets/images/og-contact.png" /> 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="https://yourdomain.com/assets/images/twitter-contact.png" />
-      </Helmet>
+      </Helmet>*/}
       <motion.div
         initial="initial"
         animate="in"

@@ -2,16 +2,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet-async';
+//import { Helmet } from 'react-helmet-async';
 import { pageVariants, pageTransition } from '../utils/animations'; // Your shared animation variants
 
 const NotFoundPage = () => {
   return (
     <>
-      <Helmet>
+      {/*<Helmet>
         <title>Page Not Found | Jason Kufakwatenzi</title>
         <meta name="description" content="The page you are looking for does not exist." />
-      </Helmet>
+      </Helmet>*/}
       <motion.div
         initial="initial"
         animate="in"
