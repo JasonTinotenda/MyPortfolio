@@ -1,0 +1,14 @@
+/* src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 antialiased;
+    /* Define default font family in tailwind.config.js */
+  }
+}
